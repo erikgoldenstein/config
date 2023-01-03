@@ -1,10 +1,11 @@
 syntax on
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
-set smartindent
 set ai
 set number
 set hlsearch
 set ruler
-highlight Comment ctermfg=green
+set smartindent
+"highlight Comment ctermfg=green
+set backspace=indent,eol,start
